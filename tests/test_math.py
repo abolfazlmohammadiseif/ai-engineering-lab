@@ -1,4 +1,4 @@
-from ai_engineering_git_lab import add
+from ai_engineering_git_lab import add, subtract
 
 
 def test_add_positive_numbers():
@@ -7,3 +7,12 @@ def test_add_positive_numbers():
 
 def test_add_negative_number():
     assert add(-2, 3) == 1
+
+
+def test_subtract():
+    assert subtract(5, 2) == 3
+
+
+
+
+
